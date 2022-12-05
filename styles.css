@@ -1,4 +1,42 @@
-.grid-container {
-    display: grid;
-    background-color: blue;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.all-read {
+    align-self: center;
+    margin-right: 20px;
+    color: hsl(219, 14%, 63%);
+}
+
+.no-notifications {
+    background-color: hsl(219, 85%, 26%);
+    margin: 0 20px;
+    border-radius: 5px;
+    padding: 2px 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.notifications-container {
+    display: flex;
+}
+
+.text--dark {
+    color: black;
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+.notification-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.time-notification {
+    width: 100%;
 }

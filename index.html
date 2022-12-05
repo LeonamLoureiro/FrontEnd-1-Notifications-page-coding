@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Notifications page</title>
 
@@ -16,70 +17,70 @@
 </head>
 <body>
 
-  <div class="grid-container">
-    <h1>Notifications</h1>
-    <p>3</p>
-    <div>Mark all as read</div>
+  <div class="flex-container">
+    <h1>Notifications<span class="no-notifications">3</span></h1>
+    <div class="all-read">Mark all as read</div>
   </div>
 
   <div>
-    <div>
-      <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture">
-      <div>
-        <div>Mark Webber</div>
-        <div>reacted to your recent post My first tournament today!</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+          <div class="text--dark">Mark Webber</div>
+          <div>reacted to your recent post My first tournament today!</div>
+          <div class="time-notification">1m ago</div>
       </div>
-      <div>1m ago</div>
+
     </div>
-    <div>
-      <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture">
-      <div>
-        <div>Angela Gray</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Angela Gray</div>
         <div>followed you</div>
+        <div class="time-notification">5m ago</div>
       </div>
-      <div>5m ago</div>
     </div>
-    <div>
-      <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture">
-      <div>
-        <div>Jacob Thompson</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Jacob Thompson</div>
         <div>has joined your group Chess Club</div>
+        <div class="time-notification">1 day ago</div>
       </div>
-      <div>1 day ago</div>
     </div>
-    <div>
-      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile picture">
-      <div>
-        <div>Rizky Hasanuddin</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Rizky Hasanuddin</div>
         <div>sent you a private message</div>
+        <div class="time-notification">5 days ago</div>
       </div>
-      <div>5 days ago</div>
       <div>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</div>
     </div>
-    <div>
-      <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture">
-      <div>
-        <div>Kimberly Smith</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Kimberly Smith</div>
         <div>commented on your picture</div>
+        <div class="time-notification">2 weeks ago</div>
       <img src="./assets/images/image-chess.webp" alt="profile picture">
       </div>
-      <div>2 weeks ago</div>
     </div>
-    <div>
-      <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile picture">
-      <div>
-        <div>Nathan Peterson</div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Nathan Peterson</div>
         <div>reacted to your recent post 5 end-game strategies to increase your win rate</div>
+        <div class="time-notification">2 weeks ago</div>
       </div>
-      <div>2 weeks ago</div>
-    </div>
-    <div>
-      <img src="./assets/images/avatar-anna-kim.webp" alt="profile picture">
-      <div>
-        <div>Anna Kim</div>
+      </div>
+    <div class="notifications-container">
+      <img src="./assets/images/avatar-anna-kim.webp" alt="profile picture" width="60px" height="60px">
+      <div class="notification-content">
+        <div class="text--dark">Anna Kim</div>
         <div>left the group Chess Club</div>
+        <div class="time-notification">2 weeks ago</div>
       </div>
-      <div>2 weeks ago</div>
     </div>
 
 
