@@ -15,15 +15,15 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-
+<body class="bg-block">
+<div class="full-block">
   <div class="flex-container">
     <h1>Notifications<span class="no-notifications">3</span></h1>
-    <div class="all-read">Mark all as read</div>
+    <button class="all-read">Mark all as read</button>
   </div>
 
   <div>
-    <div class="notifications-container">
+    <div class="notifications-container unread">
       <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture" width="60px" height="60px">
       <div class="notification-content">
           <div class="text--dark">Mark Webber</div>
@@ -32,7 +32,7 @@
       </div>
 
     </div>
-    <div class="notifications-container">
+    <div class="notifications-container unread">
       <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture" width="60px" height="60px">
       <div class="notification-content">
         <div class="text--dark">Angela Gray</div>
@@ -40,7 +40,7 @@
         <div class="time-notification">5m ago</div>
       </div>
     </div>
-    <div class="notifications-container">
+    <div class="notifications-container unread">
       <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture" width="60px" height="60px">
       <div class="notification-content">
         <div class="text--dark">Jacob Thompson</div>
@@ -55,15 +55,15 @@
         <div>sent you a private message</div>
         <div class="time-notification">5 days ago</div>
       </div>
-      <div>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</div>
     </div>
+    <p class="private-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
     <div class="notifications-container">
       <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture" width="60px" height="60px">
       <div class="notification-content">
         <div class="text--dark">Kimberly Smith</div>
         <div>commented on your picture</div>
         <div class="time-notification">2 weeks ago</div>
-      <img src="./assets/images/image-chess.webp" alt="profile picture">
+      <img src="./assets/images/image-chess.webp" alt="profile picture" width="60px" height="60px">
       </div>
     </div>
     <div class="notifications-container">
@@ -82,7 +82,7 @@
         <div class="time-notification">2 weeks ago</div>
       </div>
     </div>
-
+  </div>
 
 
 

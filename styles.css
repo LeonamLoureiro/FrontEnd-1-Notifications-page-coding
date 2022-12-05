@@ -9,6 +9,8 @@
     align-self: center;
     margin-right: 20px;
     color: hsl(219, 14%, 63%);
+    background: none;
+    border: none;
 }
 
 .no-notifications {
@@ -22,6 +24,8 @@
 
 .notifications-container {
     display: flex;
+    margin: 10px 20px;
+    padding: 15px;
 }
 
 .text--dark {
@@ -39,4 +43,25 @@
 
 .time-notification {
     width: 100%;
+    color:hsl(219, 14%, 63%);
+}
+
+.full-block {
+    background-color: white;
+    margin: 10vh 20vw;
+    border-radius: 5px;
+}
+
+.bg-block {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.unread {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.private-message {
+    border: 1px solid hsl(211, 68%, 94%);
+    padding: 15px;
+    margin: -15px 60px 20px 120px;
 }
