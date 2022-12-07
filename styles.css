@@ -6,6 +6,10 @@ h1 {
     font-size: 28px;
 }
 
+img {
+    cursor: pointer;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
