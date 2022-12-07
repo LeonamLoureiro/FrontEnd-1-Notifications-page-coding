@@ -67,6 +67,10 @@ img {
     margin-top: -10px;
 }
 
+.notification-content img {
+    margin-left: auto;
+}
+
 .time-notification {
     width: 100%;
     color: var(--grayish-blue);
