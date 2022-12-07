@@ -15,32 +15,39 @@ body {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 img {
     cursor: pointer;
 }
 
+p {
+    color: var(--dark-grayish-blue);
+    font-size: 16px;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .all-read {
     align-self: center;
     margin-right: 20px;
-    color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
     background: none;
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
 }
 
 .no-notifications {
     background-color: var(--blue);
-    margin: 0 20px;
+    margin: 0 15px;
     border-radius: 5px;
     padding: 2px 12px;
     font-size: 20px;
@@ -135,4 +142,9 @@ span:hover {
 
     .full-block {
         margin: 10vh 20vw;
+    }
+
+    .h1 {
+        font-size: 28px;
+    }
 }
