@@ -41,4 +41,8 @@ The project is available at [this site](https://euphonious-otter-fefe50.netlify.
 
 In this project, items such as directing links to other pages were not considered, nor triggers that made a notification receive the unread style and nor other things like that.
 
+## Contact me
 
+I'm always looking to improve my skills and it's always nice to talk about web development.
+
+To reach me, contact me by email leonamloureiro1@gmail.com or [Linkedin](https://www.linkedin.com/in/leonamloureiro/):
